@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'xaa.dat'
+TRUNCATE
+INTO TABLE pwned
+(HASH terminated by ':',COUNTS )
+
